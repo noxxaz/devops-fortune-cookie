@@ -15,6 +15,22 @@
 		<h1>Devops Fortune Cookie - Database Maintenance </h1>
 	</font>
 
+<!-- Display fortune -->
+		<font face="arial" color="000000">
+			<table border=1 bgcolor="EEEEEE" cellspacing=0 cellpadding=10><tr><td>
+				<table>
+					<tr>
+						<td>
+							<?php echo getFortune($_GET["id"]); ?>
+						</td>
+					</tr>
+				</table>
+			</table>
+		</font>
+		<br>
+
+
+
 <!-- Update fortune form -->
 	<font face="arial" color="FFFFFF">
 		<h2>Update Fortune</h2> 
@@ -25,7 +41,7 @@
 			<table>
 			<tr>
 				<td>
-					Edit fortune text:<br>
+					Edit text:<br>
 					<textarea rows="4" cols="80" name="FortuneText"><?php echo getFortune($_GET["id"]); ?></textarea>
 				</td>
 			</tr><tr>
@@ -50,7 +66,7 @@
 			<table>
 			<tr>
 				<td>
-					Delete this Fortune:<br>
+					Delete this record from the database:<br>
 				</td>
 			</tr><tr>
 				<td align=left>
