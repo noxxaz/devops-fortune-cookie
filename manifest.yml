@@ -1,0 +1,14 @@
+---
+applications:
+- name: devopsfortune_php
+  memory: 512M
+  host: devopsfortune
+env:
+  app_name: Devops Fortune Cookie
+  app_ver: 0.92
+  creator: Zach Brown
+  creator_email: zbrown@pivotal.io
+  stack: PHP / MySQL / Pivotal Cloud Foundry 
+  
+  
+  
