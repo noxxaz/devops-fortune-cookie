@@ -1,3 +1,4 @@
+CREATE TABLE FORTUNES (ID int, FortuneText varchar(255));
 INSERT INTO FORTUNES (ID, FortuneText) VALUES (1, "Your next commit will break the build.");
 INSERT INTO FORTUNES (ID, FortuneText) VALUES (2, "The answers you seek are out there...  on StackOverflow");
 INSERT INTO FORTUNES (ID, FortuneText) VALUES (3, "A project you're involved in will soon come to Clojure.");
